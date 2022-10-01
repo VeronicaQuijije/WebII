@@ -10,7 +10,7 @@ function RepetitivasFor(){
     }
     for(let iterador  = 0; iterador<EjercicioRealizado.length;iterador++){
         console.log(EjercicioRealizado[iterador]);
-    }
+    } }
    
 
 
@@ -41,21 +41,21 @@ function RepetitivasDoWhile(){
         console.log(TipoEjercicio[iterador3]);
         iterador3++;
     }
-    while(iterador<TipoEjercicio.length);
+    while(iterador3<TipoEjercicio.length);
 
     do{
         console.log(Deportista[iterador3]);
         iterador3++;
     }
-    while(iterador<Deportista.length);
+    while(iterador3<Deportista.length);
 
     do{
-        console.log(EjercicioRealizado[iterador]);
-        iterador++;
+        console.log(EjercicioRealizado[iterador3]);
+        iterador3++;
     }
-    while(iterador<EjercicioRealizado.length);
+    while(iterador3<EjercicioRealizado.length);
 }
-    }
+    
 
 
 RepetitivasFor()  ;
