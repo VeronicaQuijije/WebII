@@ -1,3 +1,4 @@
+//* Descripcion de los Id de Tipo Ejercicio*//
 const TipoEjercicio=[
     {
         id:1,
@@ -25,7 +26,7 @@ const TipoEjercicio=[
         tipoejercio: "Levantamiento de Peso",
         nombre: "Maholy Palma",
         cedula: 0969405481,
-        edad: 23
+        edad: 25
     },
     {
         id:5,
@@ -35,7 +36,7 @@ const TipoEjercicio=[
         edad: 25
     }
 ]
-
+// Id de Deportista
 const Deportista=[
     {
         id:1,
